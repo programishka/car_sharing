@@ -84,6 +84,45 @@ body {
 .HomePageSlider {
   background-color: #ff0;
   width: 100%;
+  display: flex;
+}
+.HomePageSlider .Slide {
+  padding: 10px 96px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  object-fit: cover;
+}
+.HomePageSlider .Slide__buttonPrev {
+  width: 64px;
+  height: 100%;
+  position: absolute;
+  background: #0EC261;
+  float: left;
+}
+.HomePageSlider .Slide__buttonNext {
+  width: 64px;
+  position: absolute;
+  background: #0EC261;
+  height: 100%;
+  float: right;
+}
+.HomePageSlider .Slide__buttonDetail {
+  background: linear-gradient(90deg, #13493F 0%, #0C7B1B 100%);
+}
+.HomePageSlider .Slide__header {
+  font-size: 40px;
+  padding: 8px 0;
+  margin: 0;
+}
+.HomePageSlider .Slide__subtitle {
+  color: #eeeeee;
+  padding: 0 0 32px 0;
+}
+.HomePageSlider .slide1 {
+  background: url("img/bg_slide1.png");
 }
 
 .Language {

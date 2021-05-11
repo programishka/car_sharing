@@ -83,6 +83,45 @@ body
 .HomePageSlider
   background-color: #ff0
   width: 100%
+  display: flex
+
+  .Slide
+    padding: 10px 96px
+    display: flex
+    position: relative
+    flex-direction: column
+    justify-content: center
+    color: #ffffff
+    object-fit: cover
+
+    &__buttonPrev
+      width: 64px
+      height: 100%
+      position: absolute
+      background: #0EC261
+      float: left
+
+    &__buttonNext
+      width: 64px
+      position: absolute
+      background: #0EC261
+      height: 100%
+      float: right
+
+    &__buttonDetail
+      background: linear-gradient(90deg, #13493F 0%, #0C7B1B 100%)
+
+    &__header
+      font-size: 40px
+      padding: 8px 0
+      margin: 0
+
+    &__subtitle
+      color: #eeeeee
+      padding: 0 0 32px 0
+
+  .slide1
+    background: url("img/bg_slide1.png")
 
 .Language
   color: #0EC261
