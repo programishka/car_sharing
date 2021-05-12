@@ -1,17 +1,25 @@
-/* Error: Undefined variable.
- *    ,
- * 21 |   color: $black-color
- *    |          ^^^^^^^^^^^^
- *    '
- *   HomePage.sass 21:10  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 21 \2502    color: $black-color\a    \2502           ^^^^^^^^^^^^\a    \2575 \a   HomePage.sass 21:10  root stylesheet";
+button {
+  background: linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+  background-blend-mode: darken;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 50px 12px 50px;
+  border: none;
+  font-size: 18px;
 }
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #212121;
+}
+
+#root {
+  height: 100%;
+}
+
+/*# sourceMappingURL=HomePage.css.map */
